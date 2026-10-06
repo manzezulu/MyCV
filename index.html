@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Manzezulu Mazibuko – Java and Python Software Engineer, ISTQB Certified. Online CV.">
+  <title>Manzezulu Mazibuko | Software Engineer</title>
+  <!-- Bootstrap 5 + Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar navbar-expand-lg fixed-top glass-nav" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#top">
+        <span class="brand-mark">MM</span><span class="brand-dot">.</span>
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list fs-2"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-1">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#code">Code</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item ms-lg-2"><a class="btn btn-sm btn-accent px-3" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <header class="hero-section" id="top">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-7">
+          <span class="badge-pill mb-3 d-inline-block">
+            <i class="bi bi-circle-fill text-success me-2" style="font-size:.5rem;vertical-align:middle;"></i>
+            Available for Software Engineering, AI Engineering and Full Stack roles.
+          </span>
+          <h1 class="display-hero mb-3">
+            Manzezulu<br><span class="text-gradient">Mazibuko</span>
+          </h1>
+          <p class="hero-role mb-3">
+            <i class="bi bi-code-slash me-2"></i>Full Stack Software Engineer · ISTQB Certified
+          </p>
+          <p class="hero-lede mb-4">
+            I build, test and support banking software in production at Diebold Nixdorf,
+            and I craft full‑stack apps with Java, Spring Boot, Python, Django and React.
+          </p>
+          <div class="d-flex flex-wrap gap-3 mb-4">
+            <a href="#contact" class="btn btn-accent btn-lg px-4">
+              <i class="bi bi-envelope me-2"></i>Get in touch
+            </a>
+            <a href="#projects" class="btn btn-outline-light btn-lg px-4">
+              <i class="bi bi-folder2-open me-2"></i>View projects
+            </a>
+          </div>
+          <div class="hero-meta d-flex flex-wrap gap-4">
+            <span><i class="bi bi-geo-alt me-1"></i>Soweto, Johannesburg</span>
+            <a href="https://www.linkedin.com/in/manzezulu-mazibuko-b62a26177" target="_blank" rel="noopener">
+              <i class="bi bi-linkedin me-1"></i>LinkedIn
+            </a>
+            <a href="https://github.com/manzezulu" target="_blank" rel="noopener">
+              <i class="bi bi-github me-1"></i>GitHub
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="terminal-card">
+            <div class="terminal-header">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+              <span class="terminal-title">manzezulu@dev: ~</span>
+            </div>
+            <div class="terminal-body">
+              <p class="term-prompt">$ <span class="term-cmd">whoami</span></p>
+              <p class="term-output">Full Stack Software Engineer</p>
+              <p class="term-prompt">$ <span class="term-cmd">cat skills.txt</span></p>
+              <p class="term-output">
+                Spring Boot · Django · React · REST APIs<br>
+                MySQL · H2 · JWT · ISTQB
+              </p>
+              <p class="term-prompt">$ <span class="term-cmd">status</span></p>
+              <p class="term-output">
+                <span class="text-warning">●</span> Building reliable banking software<br>
+                <span class="text-info">●</span> Completing AI &amp; Software Engineering Bootcamp
+              </p>
+              <p class="term-prompt blink">$ <span class="cursor"></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========== ABOUT ========== -->
+    <section id="about" class="section-pad">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-4">
+            <span class="section-label">01 — About</span>
+            <h2 class="section-title">Engineer with a<br>quality mindset</h2>
+          </div>
+          <div class="col-lg-8">
+            <div class="glass-panel p-4 p-md-5">
+              <p>
+                I am a software engineer from Johannesburg with a BSc in Computer Science
+                from Rhodes University and an ISTQB Foundation Level certification. My work
+                sits where development, integration and testing meet, and I care about shipping
+                software that holds up in production.
+              </p>
+              <p>
+                Since 2024 I have worked at Diebold Nixdorf, where I help build the ATM
+                application for Capitec Bank. My work is mostly software integration and
+                frontend development. I also test and debug the application, carry out root
+                cause analysis when something goes wrong, I also work directly with our 
+                banking clients, including Nedbank, Capitec and FNB, to understand their issues 
+                and get them resolved.
+              <p>
+                I am completing an AI and Software Engineering Bootcamp with Stellenbosch
+                University and HyperionDev, where I am building skills in Python, databases,
+                data handling and applied AI. Alongside it I build full-stack projects, including
+                REST APIs, in Python, Django, Java and Spring Boot. I am looking for a software
+                engineering role, in Python, AI or Java, where I can build reliable software
+                for financial services and grow into a senior engineer.
+              </p>
+              <div class="row g-3 mt-4">
+                <div class="col-sm-6 col-md-3"><div class="stat-chip"><span class="stat-num">2024</span><span class="stat-lbl">BSc CS</span></div></div>
+                <div class="col-sm-6 col-md-3"><div class="stat-chip"><span class="stat-num">ISTQB</span><span class="stat-lbl">Certified</span></div></div>
+                <div class="col-sm-6 col-md-3"><div class="stat-chip"><span class="stat-num">3+</span><span class="stat-lbl">Projects</span></div></div>
+                <div class="col-sm-6 col-md-3"><div class="stat-chip"><span class="stat-num">AI</span><span class="stat-lbl">Bootcamp</span></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== EXPERIENCE ========== -->
+    <section id="experience" class="section-pad section-alt">
+      <div class="container">
+        <span class="section-label">02 — Experience</span>
+        <h2 class="section-title mb-5">Work experience</h2>
+
+        <div class="timeline-card">
+          <div class="timeline-badge"><i class="bi bi-briefcase"></i></div>
+          <div class="row g-4 align-items-start">
+            <div class="col-md-4">
+              <h3 class="job-title">Software Product Engineer Trainee</h3>
+              <p class="job-company"><i class="bi bi-building me-1"></i>Diebold Nixdorf SA (Pty) Ltd</p>
+              <p class="job-location"><i class="bi bi-geo-alt me-1"></i>Johannesburg</p>
+              <span class="job-date"><i class="bi bi-calendar3 me-1"></i>Oct 2024 – Present</span>
+            </div>
+            <div class="col-md-8">
+              <ul class="job-list">
+                                <li>Integrate ATM software solutions for banking clients, including Nedbank, Capitec and FNB, into their environments and ATM hardware.</li>
+                <li>Develop and fix user interface components for ATM applications using HTML, CSS and React.</li>
+                <li>Debug and maintain application code for ATM systems, working with cross‑functional teams to integrate real equipment into the product.</li>
+                <li>Test solutions, find defects and carry out root cause analysis, covering development, QA and production support.</li>
+                <li>Work directly with banking clients to understand their issues and get them resolved.</li>
+                <li>Apply CI/CD and DevOps practices, including version control, code reviews, automated builds and testing, and repeatable releases, within Agile teams.</li>
+                <li>Write technical documentation that helps the team maintain code and onboard new members, and contribute to the corporate Bitbucket repository.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+           <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card h-100">
+              <div class="skill-icon"><i class="bi bi-layout-text-window-reverse"></i></div>
+              <h3>Frontend</h3>
+              <p>React, JavaScript, TypeScript, Next.js, semantic HTML5, CSS3, Bootstrap, responsive design, Axios</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card h-100">
+              <div class="skill-icon"><i class="bi bi-diagram-3"></i></div>
+              <h3>Systems integration</h3>
+              <p>Integrating ATM software with bank systems and hardware, API integration, banking client environments, troubleshooting</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card h-100">
+              <div class="skill-icon"><i class="bi bi-filetype-py"></i></div>
+              <h3>Python</h3>
+              <p>Django, Django REST Framework, REST API development, ORM and ModelForms, authentication, unit testing, modules and OOP</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card h-100">
+              <div class="skill-icon"><i class="bi bi-boxes"></i></div>
+              <h3>Software design &amp; architecture</h3>
+              <p>System architecture, network protocols, software design, object‑oriented design, MVT architecture, unit testing</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card h-100">
+              <div class="skill-icon"><i class="bi bi-database"></i></div>
+              <h3>Data &amp; databases</h3>
+              <p>SQL, MySQL, H2, SQLite, database design and ERDs, Django ORM, AI and software engineering (in progress)</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card h-100">
+              <div class="skill-icon"><i class="bi bi-cup-hot"></i></div>
+              <h3>Java</h3>
+              <p>Spring Boot, REST API design, object‑oriented design, JWT security, Maven</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card h-100">
+              <div class="skill-icon"><i class="bi bi-shield-check"></i></div>
+              <h3>Quality engineering</h3>
+              <p>ISTQB CTFL v4.0, functional and automated testing, defect analysis, root cause analysis, debugging</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card h-100">
+              <div class="skill-icon"><i class="bi bi-infinity"></i></div>
+              <h3>CI/CD &amp; DevOps</h3>
+              <p>CI/CD pipelines, DevOps practices, Git workflows, automated builds and testing, Agile delivery, code review</p>
+              <p>Git, GitHub, Bitbucket, Linux, Jira, Confluence, Wireshark, IntelliJ IDEA, VS Code</p>
+            </div>
+        </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="skill-card h-100">
+              <div class="skill-icon"><i class="bi bi-bank"></i></div>
+              <h3>Banking domain</h3>
+              <p>ATM software, financial transaction workflows, working with banking clients in regulated production environments</p>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="section-title mt-5 mb-4">Soft skills</h2>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-3"><div class="soft-card"><h3>Client communication</h3><p>Explain technical issues clearly to banking clients and non‑technical stakeholders.</p></div></div>
+          <div class="col-md-6 col-lg-3"><div class="soft-card"><h3>Analytical thinking</h3><p>Trace problems to their root cause instead of patching symptoms.</p></div></div>
+          <div class="col-md-6 col-lg-3"><div class="soft-card"><h3>Ownership</h3><p>Take responsibility for production problems and follow them through to a fix.</p></div></div>
+          <div class="col-md-6 col-lg-3"><div class="soft-card"><h3>Collaboration</h3><p>Work with cross‑functional and international teams through reviews and shared documentation.</p></div></div>
+          <div class="col-md-6 col-lg-3"><div class="soft-card"><h3>Fast learning</h3><p>Pick up unfamiliar codebases, hardware and tools quickly, and keep studying alongside work.</p></div></div>
+          <div class="col-md-6 col-lg-3"><div class="soft-card"><h3>Attention to detail</h3><p>Careful with testing, validation and documentation, which matters in banking.</p></div></div>
+          <div class="col-md-6 col-lg-3"><div class="soft-card"><h3>Composure under pressure</h3><p>Stay calm and methodical when a live system is affected.</p></div></div>
+          <div class="col-md-6 col-lg-3"><div class="soft-card"><h3>Initiative</h3><p>Build my own full‑stack projects and pursue certifications without being asked.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROJECTS ========== -->
+    <section id="projects" class="section-pad section-alt">
+      <div class="container">
+        <span class="section-label">04 — Projects</span>
+        <h2 class="section-title mb-5">Selected projects</h2>
+
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <div class="project-card h-100">
+              <div class="project-top">
+                <div class="project-icon"><i class="bi bi-bus-front"></i></div>
+                <div class="project-stack">Java · Spring Boot · React · H2 · JWT</div>
+              </div>
+              <h3>EasyAPP Smart Transport Platform</h3>
+              <p>A full‑stack transport platform with smart‑card recharge, route information, zone‑based fare discovery, user accounts and an admin portal. I designed the REST API and database for trips and customer accounts, and secured it with JWT authentication.</p>
+              <a href="https://github.com/manzezulu/EasyAPP" class="project-link">GitHub (private repo, available on request) <i class="bi bi-arrow-up-right"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="project-card h-100">
+              <div class="project-top">
+                <div class="project-icon"><i class="bi bi-newspaper"></i></div>
+                <div class="project-stack">Python · Django · SQL</div>
+              </div>
+              <h3>Newspaper Web App</h3>
+              <p>A Django newspaper application for publishing and reading articles, built on Django's MVT architecture with user accounts and database‑backed content.</p>
+              <a href="https://github.com/manzezulu/news_capstone" class="project-link">View on GitHub <i class="bi bi-arrow-up-right"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="project-card h-100">
+              <div class="project-top">
+                <div class="project-icon"><i class="bi bi-bank2"></i></div>
+                <div class="project-stack">Java · Python · SQL</div>
+              </div>
+              <h3>Banking System Application</h3>
+              <p>A simulation of core banking operations: account management, deposits, withdrawals and balance tracking, with authentication and validation built in. It models real transaction workflows with structured business logic.</p>
+              <a href="https://github.com/manzezulu/bankingsystem" class="project-link">View on GitHub <i class="bi bi-arrow-up-right"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="project-card h-100">
+              <div class="project-top">
+                <div class="project-icon"><i class="bi bi-sticky"></i></div>
+                <div class="project-stack">Python · Django · SQLite · HTML · CSS</div>
+              </div>
+              <h3>Sticky Notes App</h3>
+              <p>A full CRUD web app with colour‑coded notes, ModelForm validation and CSRF‑protected forms. It has a 17‑test automated suite covering models, forms and views, plus Django admin for data management.</p>
+              <a href="https://github.com/manzezulu/Sticky_Notes" class="project-link">View on GitHub <i class="bi bi-arrow-up-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CODE SAMPLES ========== -->
+    <section id="code" class="section-pad">
+      <div class="container">
+        <span class="section-label">05 — Code</span>
+        <h2 class="section-title mb-3">Java &amp; Python in practice</h2>
+        <p class="section-note mb-5">Short examples in the style of my project work. Full code is on GitHub.</p>
+
+        <div class="row g-5">
+          <div class="col-lg-6">
+            <div class="code-card">
+              <div class="code-card-header">
+                <i class="bi bi-cup-hot me-2"></i>Java: a secured Spring Boot endpoint
+              </div>
+              <pre><code>@RestController
+@RequestMapping("/api/cards")
+public class CardController {
+  private final CardService service;
+
+  public CardController(CardService service) {
+    this.service = service;
+  }
+
+  @GetMapping("/{id}/balance")
+  public ResponseEntity&lt;BalanceDto&gt; balance(
+      @PathVariable Long id, Principal user) {
+    return ResponseEntity.ok(
+        service.balanceFor(id, user.getName()));
+  }
+}</code></pre>
+              <p class="code-note">Constructor injection, a thin controller and the logged‑in user passed to the service, so people can only read their own data.</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="code-card">
+              <div class="code-card-header">
+                <i class="bi bi-filetype-py me-2"></i>Python: validation covered by a Django test
+              </div>
+              <pre><code>class NoteFormTests(TestCase):
+    def test_title_is_required(self):
+        form = NoteForm(data={"title": "", "colour": "yellow"})
+        self.assertFalse(form.is_valid())
+        self.assertIn("title", form.errors)
+
+    def test_valid_note_is_saved(self):
+        form = NoteForm(data={"title": "Plan", "colour": "blue"})
+        self.assertTrue(form.is_valid())
+        note = form.save()
+        self.assertEqual(Note.objects.count(), 1)</code></pre>
+              <p class="code-note">Behaviour is checked with automated tests, the same quality habit I use at work.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== EDUCATION ========== -->
+    <section id="education" class="section-pad section-alt">
+      <div class="container">
+        <span class="section-label">06 — Education</span>
+        <h2 class="section-title mb-5">Education &amp; certifications</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="edu-card h-100">
+              <div class="edu-icon"><i class="bi bi-mortarboard"></i></div>
+              <span class="edu-date">Jan 2020 – Jun 2024</span>
+              <h3>BSc Computer Science</h3>
+              <p>Rhodes University</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="edu-card h-100">
+              <div class="edu-icon"><i class="bi bi-robot"></i></div>
+              <span class="edu-date">Jun 2026 – Present</span>
+              <h3>AI &amp; Software Engineering Bootcamp</h3>
+              <p>Stellenbosch University with HyperionDev</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="edu-card h-100">
+              <div class="edu-icon"><i class="bi bi-patch-check"></i></div>
+              <span class="edu-date">ISTQB</span>
+              <h3>Certified Tester, Foundation Level v4.0</h3>
+              <p>ISTQB</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section id="contact" class="section-pad contact-section">
+      <div class="container">
+        <div class="contact-panel">
+          <div class="row g-5 align-items-center">
+            <div class="col-lg-5">
+              <span class="section-label light">07 — Contact</span>
+              <h2 class="section-title text-white mb-3">Let's build<br>something useful.</h2>
+              <p class="text-white-50 mb-4">Open to Java, Spring Boot, full‑stack and software quality opportunities.</p>
+              <div class="d-flex flex-wrap gap-3">
+                <a href="mailto:manzezulum57@gmail.com" class="btn btn-accent px-4">
+                  <i class="bi bi-envelope me-2"></i>Email me
+                </a>
+                <a href="https://www.linkedin.com/in/manzezulu-mazibuko-b62a26177" target="_blank" rel="noopener" class="btn btn-outline-light px-4">
+                  <i class="bi bi-linkedin me-2"></i>LinkedIn
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <div class="row g-4">
+                <div class="col-sm-6">
+                  <div class="contact-item">
+                    <dt><i class="bi bi-person me-2"></i>Name</dt>
+                    <dd>Manzezulu Mazibuko</dd>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="contact-item">
+                    <dt><i class="bi bi-envelope me-2"></i>Email</dt>
+                    <dd><a href="mailto:manzezulum57@gmail.com">manzezulum57@gmail.com</a></dd>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="contact-item">
+                    <dt><i class="bi bi-telephone me-2"></i>Phone</dt>
+                    <dd><a href="tel:+27678346984">067 834 6984</a></dd>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="contact-item">
+                    <dt><i class="bi bi-linkedin me-2"></i>LinkedIn</dt>
+                    <dd><a href="https://www.linkedin.com/in/manzezulu-mazibuko-b62a26177" target="_blank" rel="noopener">linkedin.com/in/manzezulu-mazibuko</a></dd>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="contact-item">
+                    <dt><i class="bi bi-github me-2"></i>GitHub</dt>
+                    <dd><a href="https://github.com/manzezulu/" target="_blank" rel="noopener">github.com/manzezulu</a></dd>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="contact-item">
+                    <dt><i class="bi bi-geo-alt me-2"></i>Location</dt>
+                    <dd>Gauteng, Johannesburg, South Africa</dd>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+      <span>&copy; 2026 Manzezulu Mazibuko</span>
+      <span class="footer-tag">Java · Spring Boot · Python · Full‑Stack · QA</span>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    (function () {
+      const nav = document.getElementById('mainNav');
+      const links = document.querySelectorAll('.nav-link');
+      const sections = [...document.querySelectorAll('section[id]')];
+
+      window.addEventListener('scroll', () => {
+        nav.classList.toggle('scrolled', window.scrollY > 20);
+        let current = '';
+        sections.forEach(sec => {
+          const top = sec.offsetTop - 120;
+          if (window.scrollY >= top) current = sec.id;
+        });
+        links.forEach(l => {
+          l.classList.toggle('active', l.getAttribute('href') === '#' + current);
+        });
+      });
+
+      const collapse = document.getElementById('navMenu');
+      document.querySelectorAll('#navMenu .nav-link, #navMenu .btn').forEach(el => {
+        el.addEventListener('click', () => {
+          const bsCollapse = bootstrap.Collapse.getInstance(collapse);
+          if (bsCollapse && collapse.classList.contains('show')) bsCollapse.hide();
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
